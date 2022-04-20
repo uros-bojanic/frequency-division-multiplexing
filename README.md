@@ -25,6 +25,8 @@ The amplitude characteristic can be found below:
 ![Y1](Charts/01.jpg)
 
 ### Signal 2
+
+Original signal:
 ```
 y2(t) = heaviside(t-0.001) - heaviside(t-0.002)
 ```
