@@ -22,7 +22,7 @@ Y1(jw) = 4800pi / ((2400pi)^2 + (150+jw)^2))
 ```
 
 The amplitude characteristic can be found below:
-![Y1](Charts/01.png)
+![Y1](Charts/01.jpg)
 
 ### Signal 2
 ```
@@ -36,9 +36,9 @@ Y2(jw) = 0.001 * exp(-0.0015jw) * sinc(0.0005w)
 ```
 
 The amplitude characteristic can be found below:
-![Y2](Charts/02.png)
+![Y2](Charts/02.jpg)
 
 ### Result
 
 The bandwidth is divided into two non-overlapping frequency bands, each of which is used to carry a separate signal. Both signals smoothed using low-pass filters, the second signal is modulated, and finally the superposed transmission signal is formed:
-![YT](Charts/06.png)
+![YT](Charts/06.jpg)
