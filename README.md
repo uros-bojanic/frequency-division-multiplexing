@@ -14,6 +14,7 @@ Original signal:
 ```
 y1(t) = 2 * sin(2400*pi*t) * exp(-150t) * heaviside(t)
 ```
+
 ![y1](Charts/y1.png)
 
 Signal spectrum is analytically determined:
@@ -22,6 +23,7 @@ Y1(jw) = 4800pi / ((2400pi)^2 + (150+jw)^2))
 ```
 
 The amplitude characteristic can be found below:
+
 ![Y1](Charts/01.jpg)
 
 ### Signal 2
@@ -30,6 +32,7 @@ Original signal:
 ```
 y2(t) = heaviside(t-0.001) - heaviside(t-0.002)
 ```
+
 ![y2](Charts/y2.png)
 
 Signal spectrum is analytically determined:
@@ -38,9 +41,11 @@ Y2(jw) = 0.001 * exp(-0.0015jw) * sinc(0.0005w)
 ```
 
 The amplitude characteristic can be found below:
+
 ![Y2](Charts/02.jpg)
 
 ### Result
 
 The bandwidth is divided into two non-overlapping frequency bands, each of which is used to carry a separate signal. Both signals smoothed using low-pass filters, the second signal is modulated, and finally the superposed transmission signal is formed:
+
 ![YT](Charts/06.jpg)
